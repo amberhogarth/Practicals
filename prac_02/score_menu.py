@@ -1,7 +1,8 @@
 """
-Program to print a score menu
+Amber Hogarth - CP1404 Practical 2 - Program to print a score menu
 """
 
+VALID_CHOICES = "S", "R", "Q"
 MENU = """R - Result
 S - Stars
 Q - Quit"""
@@ -46,7 +47,7 @@ def display_score_status(score):
 def get_valid_choice():
     """Get a valid menu choice"""
     choice = input(">>> ").upper()
-    while choice != "Q" and choice != "R" and choice != "S":
+    while choice not in VALID_CHOICES:
         print("Invalid option!")
         print(MENU)
         choice = input(">>> ").upper()
