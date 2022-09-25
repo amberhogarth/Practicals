@@ -15,6 +15,7 @@ def main():
 
 
 def determine_score_status(score):
+    """Determines the status for given score"""
     if score < 0 or score > 100:
         return "Invalid score."
     else:
