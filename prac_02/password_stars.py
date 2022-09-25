@@ -1,5 +1,5 @@
 """
-Program to check password length print asterisks
+Amber Hogarth - CP1404 Practical 2 - Program to check password length and print asterisks
 """
 
 
