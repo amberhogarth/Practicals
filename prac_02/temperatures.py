@@ -23,14 +23,14 @@ def main():
 
 
 def convert_to_celsius():
-    """Converts temperature from fahrenheit to celsius"""
+    """Convert temperature from fahrenheit to celsius"""
     fahrenheit = float(input("Fahrenheit: "))
     celsius = 5 / 9 * (fahrenheit - 32)
     return "Result: {:.2f} C".format(celsius)
 
 
 def convert_to_fahrenheit():
-    """Converts temperature from celsius to fahrenheit"""
+    """Convert temperature from celsius to fahrenheit"""
     celsius = float(input("Celsius: "))
     fahrenheit = celsius * 9.0 / 5 + 32
     return "Result: {:.2f} F".format(fahrenheit)

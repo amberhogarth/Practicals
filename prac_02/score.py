@@ -8,17 +8,14 @@ import random
 
 def main():
     score = float(input("Enter score: "))
-    print(determine_score_status(score))
+    determine_score_status(score)
     random_score = random.randint(0, 101)
     print("Random score: {}".format(random_score))
-    print(determine_score_status(random_score))
-
-
-
+    determine_score_status(random_score)
 
 
 def determine_score_status(score):
-    """Determines the status for given score"""
+    """Determine the status for given score"""
     if score < 0 or score > 100:
         return "Invalid score."
     else:
