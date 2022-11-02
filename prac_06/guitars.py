@@ -4,6 +4,7 @@ from prac_06.guitar import Guitar
 
 
 def main():
+    """Generate list of guitar information from input."""
     print("My Guitars!")
     guitars = []
 
