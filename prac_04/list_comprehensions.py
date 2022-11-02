@@ -1,6 +1,5 @@
 """
-CP1404/CP5632 Practical
-List comprehensions
+CP1404 Prac 4 - Amber Hogarth - List Comprehensions
 """
 
 names = ["Bob", "Angel", "Jimi", "Alan", "Ada"]
