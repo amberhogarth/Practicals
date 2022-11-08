@@ -12,5 +12,5 @@ This subject has provided these important lessons about writing clean code:
 - Follow the proper conventions for naming; use words from the problem domain.
 
 ## Links
-Programming Patterns: https://github.com/CP1404/Starter/wiki/Programming-Patterns
-Practicals Repo: https://github.com/CP1404/Practicals
+- Programming Patterns: https://github.com/CP1404/Starter/wiki/Programming-Patterns
+- Practicals Repo: https://github.com/CP1404/Practicals
