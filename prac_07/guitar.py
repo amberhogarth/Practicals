@@ -1,4 +1,6 @@
-""""""
+"""
+CP1404 Practical 7 - Guitar Class
+"""
 
 
 class Guitar:
